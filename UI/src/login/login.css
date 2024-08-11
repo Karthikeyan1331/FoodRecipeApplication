@@ -1,0 +1,235 @@
+
+
+
+
+.loginPage{
+    font-family: 'Poppins', sans-serif;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #fff5c9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login-container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+
+
+.login-container button{
+    background-color: #ff973c;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-container button.login-hidden1{
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.login-container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.login-container input{
+    background-color: #eee;
+    border: none;
+    margin-top: 8px;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.login-form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.login-sign-in{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.login-container.login-active .login-sign-in{
+    transform: translateX(100%);
+}
+
+.login-sign-up{
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.login-container.login-active .login-sign-up{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.6s;
+}
+
+@keyframes move{
+    0%, 49.99%{
+        opacity: 0;
+        z-index: 1;
+    }
+    50%, 100%{
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+.login-social-icons{
+    margin: 0px 0px;
+}
+.login-social-icons button{
+    background-color: white;
+    color:#333;
+}
+.topCreSign{
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+.login-toggle-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 10;
+    
+}
+
+#food1{
+    height: 50px;
+    width: 50px;
+}
+
+.login-container.login-active .login-toggle-container{
+    transform: translateX(-100%);
+    border-radius: 0 150px 100px 0;
+}
+
+.login-toggle{
+    height: 100%;
+    background: linear-gradient(to right, #e7a92d, #ff973c);
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+.login-container.login-active .login-toggle{
+    transform: translateX(50%);
+}
+
+.login-toggle-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+.login-toggle-left{
+    transform: translateX(-200%);
+}
+
+.login-container.login-active .login-toggle-left{
+    transform: translateX(0);
+}
+
+.login-toggle-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.login-container.login-active .login-toggle-right{
+    transform: translateX(200%);
+}
+
+
+
+.login-toggle-container .login-toggle-panel.login-toggle-left h1{
+    top: 20px;
+}
+.text-stroke {
+    -webkit-text-stroke: .1px black; /* Width and color of the stroke */
+  }
+  .login-error {
+    box-shadow: 0px 0px 0px transparent;
+    transition: box-shadow .3s ease-in-out;
+  }
+  .login-error-error {
+    box-shadow: 0px 0px 10px red;
+    transition: box-shadow .3s ease-in-out;
+  }
+  .login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent black background */
+    z-index: 9999; /* Ensure the overlay appears on top of other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333; /* Adjust the color as needed */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }

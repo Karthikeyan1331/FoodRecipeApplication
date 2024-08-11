@@ -1,0 +1,88 @@
+.Recipe{
+    margin: 3vw 0vw 0vw 8vw;
+    font-family: 'Poppins', sans-serif;
+    width: 50vw;
+    background-color: white;
+}
+.RecipeName{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3vw;
+}
+.hidden{
+    display: none;
+}
+.Rating{
+    display: flex;
+}
+.Rating i{
+    margin-right:.2vw;
+    font-size: 1.3vw;
+    color: rgb(164, 28, 24);
+}
+.AbovePic{
+    margin-top: 2vw;
+    display: flex;
+}
+.AbovePic div{
+    margin-right: 1vw;
+}
+.Save,.IMadeThis{
+    padding: .5vw 2vw;
+    font-size: 1.5vw;
+    border-radius: .3vw;
+    cursor: pointer;
+    background-color: rgb(215, 215, 215);
+}
+.IMadeThis{
+    font-weight: 500;
+    background-color: rgb(230, 245, 30);
+}
+
+
+.text-stock{ -webkit-text-stroke: .4px; }
+
+.foodIcon div{
+    font-family: 'Poppins', sans-serif;
+    margin-right: .5vw;
+}
+.wsa{
+    border-bottom: 2px dashed black;
+}
+.StepsDirections li{
+    
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.StepsDirections > ::marker{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.StepsDirections > li{
+    padding-left: .5em;
+}
+.StepsDirections p{
+    margin-right: 2vw;
+}
+.Voice,.Pause,.Ennd{
+    cursor: pointer;
+}
+.Voice{
+    color:green;
+}
+.Pause{
+    
+    margin-right:.5vw;
+}
+.Ennd{
+    color: red;
+}
+
+.commentInputField{
+    padding-left: 1px;
+    border-bottom: 0px solid black;
+}
+.commentInputField:focus{
+    outline: none;
+    border-bottom: 2px solid black;
+}

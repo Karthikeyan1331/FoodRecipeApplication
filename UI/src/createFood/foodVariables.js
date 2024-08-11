@@ -1,0 +1,20 @@
+export let cuisine = ['Gujarati Recipes', 'North Karnataka', 'Chettinad', 'Tamil Nadu', 'Italian Recipes',
+    'Malaysian', 'Oriya Recipes', 'Lunch', 'Thai', 'Appetizer', 'Nagaland',
+    'Assamese', 'Vietnamese', 'Dessert', 'South Karnataka', 'Snack', 'French',
+    'Himachal', 'Jharkhand', 'Mediterranean', 'Goan Recipes', 'Karnataka',
+    'Caribbean', 'Uttarakhand-North Kumaon', 'Uttar Pradesh', 'Malabar',
+    'Sindhi', 'European', 'Mughlai', 'Hyderabadi', 'North Indian Recipes', 'Kashmiri',
+    'Indo Chinese', 'Coorg', 'Burmese', 'Cantonese', 'Middle Eastern', 'Sichuan', 'South Indian Recipes',
+    'Shandong', 'Kerala Recipes', 'Lucknowi', 'Dinner', 'Awadhi', 'Brunch', 'Pakistani',
+    'Bengali Recipes', 'Afghan', 'Maharashtrian Recipes', 'Andhra', 'Jewish', 'Chinese', 'Indonesian',
+    'Kongunadu', 'Japanese', 'Asian', 'Hunan', 'Parsi Recipes', 'British', 'World Breakfast',
+    'Konkan', 'Mangalorean', 'Arab', 'Udupi', 'North East India Recipes', 'Indian', 'Punjabi',
+    'Haryana', 'Coastal Karnataka', 'Malvani', 'African', 'Side Dish', 'Continental', 'Rajasthani',
+    'Mexican', 'Sri Lankan', 'Fusion', 'Greek', 'Korean', 'Bihari', 'American', 'Nepalese']
+export let course = ['World Breakfast', 'South Indian Breakfast', 'One Pot Dish', 'Non Vegeterian',
+    'Sugar Free Diet', 'Indian Breakfast', 'Main Course', 'Lunch', 'High Protein Vegetarian',
+    'Dinner', 'Appetizer', 'North Indian Breakfast', 'Brunch', 'Side Dish', 'Dessert',
+    'No Onion No Garlic (Sattvic)', 'Vegan', 'Snack', 'Vegetarian', 'Eggetarian']
+export let diet = ['Diabetic Friendly', 'Vegan', 'Vegetarian', 'High Protein Non Vegetarian',
+    'Gluten Free', 'Non Vegeterian', 'High Protein Vegetarian', 'Eggetarian',
+    'Sugar Free Diet', 'No Onion No Garlic (Sattvic)']

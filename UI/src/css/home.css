@@ -1,0 +1,193 @@
+
+body {
+  box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.HomePage{
+    z-index: 1;
+    margin: 0px;
+    background:  no-repeat,linear-gradient(45deg,#efd3d4,#f4dedf,#d4bbe9,#cbeff7);
+    width: 100vw;
+    height: 49vw;
+    position: relative;
+}
+
+.TopS{
+    display: flex;
+    align-items: center;
+    margin: 5vw;
+    margin-top: 4vw;
+    position: absolute;
+  }
+  
+  .logo {
+    border-color: black;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 4.5vw;
+  }
+  
+  .NavBar {
+    font-size: 1.3vw;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .NavBar div {
+    padding: 1vw;
+    margin-right: 2.5vw;
+  }
+  
+  .NavBar div:last-child {
+    margin-right: 0;
+  }
+  .SignIn{
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 13vw;
+    font-size: 1.4vw;
+  }
+  .SignUp{
+    cursor: pointer;
+    padding: .7vw 1vw;
+    border: 2px solid #5a5ff2;
+    box-shadow: 0px 0px 1px #767bf6;
+    border-radius: .5vw;
+    color: #262df4;
+    margin-left:2vw;
+    font-size: 1vw;
+  }
+  .LeftS{
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 23vw;
+  }
+  .Cook{
+    transform: translate(0vw,0vw);
+    position: absolute;
+    font-size: 8vw;
+    font-family: 'Russo One', sans-serif;
+    width: 50vw;
+  }
+  .des{
+    transform: translate(0vw,11vw);
+    position: absolute;
+    font-size: 2.6vw;
+    width: 50vw;
+  }
+  .About{
+    z-index: -1;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(0vw,-3vw);
+    position: absolute;
+    font-size: 1.5vw;
+    width: 45vw;
+    padding: .5vw;
+    padding-left: 1.5vw;
+    border-radius: 10vw;
+    background-color: #90b1f784;
+    border: .2vw dotted rgb(94, 54, 255);
+  }
+  .ButtonS {
+    transform: translate(0vw,17vw);
+    position: absolute;
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    padding: 1vw 4vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+  
+  .ButtonS:hover {
+    background-color: #217dbb;
+  }
+  .RightS{
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 60vw;
+  }
+  .RightS div{
+    position: absolute;
+  }
+  .san{
+    z-index: -1;
+    margin: 0px;
+    width: 30vw;
+  }
+  .Ron1{
+    transform: translate(1vw,-27.6vw);
+    z-index: -3;
+    background-color: #f02323;
+    width: 3vw;
+    height: 1vw;
+    border-radius: 100vw;
+  }
+  .Ron2{
+    transform: translate(-1.5vw,-30vw);
+    z-index: -4;
+    background-color: transparent;
+    border: 1px outset #2329f0;
+    width: 33vw;
+    height: 33vw;
+    border-radius: 100vw;
+  }
+  .Ron3{
+    transform: translate(-3vw,-31.65vw);
+    z-index: -2;
+    background-color: transparent;
+    border: 2px dashed #3b23f0;
+    width: 36vw;
+    height: 36vw;
+    border-radius: 100vw;
+  }
+  .Ron4{
+    transform:translate(-55vw,-17vw) rotate(45deg);
+    z-index: -2;
+    background-color: #3b23f0;
+    border: 2px dashed #3b23f0;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+  }
+  .Ron5{
+    transform:translate(-55vw,-17vw) rotate(45deg);
+    z-index: -2;
+    background-color: #4299e1;
+    box-shadow: 0px 0px 10vw 10vw #f3f1ff;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+  }
+  .Ron6 {
+    z-index: -2;
+    background-color: #4299e1;
+    transform: translate(1vw,-27.3vw);
+    width: 28vw;
+    height: 28vw;
+    border-radius: 100%;
+    
+  }
+  .san1{
+    position: absolute;
+    z-index: -1;
+    width: 20vw;
+    transform:translate(-15vw,-30vw) rotate(-45deg);
+  }
+  .san2{
+    position: absolute;
+    z-index: -1;
+    width: 13vw;
+    transform:translate(20vw,-28vw) rotate(45deg);
+  }
+  .san3{
+    position: absolute;
+    z-index: -1;
+    width: 13vw;
+    transform:translate(-10vw,-10vw) rotate(0deg);
+  }
+  
+  

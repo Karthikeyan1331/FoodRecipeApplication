@@ -1,0 +1,39 @@
+.Search{
+    z-index: 1;
+    background-color: white;
+    border-radius: 1vw;
+    width: 100vw;
+    height: 49vw;
+    position: relative;
+  }
+  .Recommed {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    position: absolute;
+    left: 50%;
+    top: 2vw;
+    transform: translateX(-50%);
+    margin: 1vw;
+    text-align: center;
+    position: relative;
+}
+
+.Recommed::after {
+    content: ''; 
+    display: block; 
+    border-bottom: .2vw solid rgb(241, 118, 11); 
+    position: absolute;
+    width: 0%; 
+    bottom: -1vw; 
+    left: 50%;
+    transform: translateX(-50%);
+    animation: underlineAnimation .5s ease-out forwards; 
+}
+@keyframes underlineAnimation {
+    to {
+        width: 15%; /* End with 15% width */
+    }
+}
+.Caros{
+    transform: translate(0vw,6vw);
+}

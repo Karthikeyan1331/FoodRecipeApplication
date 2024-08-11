@@ -1,0 +1,77 @@
+
+.boxs{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 600px;
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 10px 5px 20px gray;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+.text{
+    color: rgb(33, 32, 15);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .Mail{
+    margin-left: 110px;
+ }
+.input1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+
+
+.input1 input{
+    height: 50px;
+    width: 400px;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    color: rgb(10, 1, 1);
+    font-size: 19px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    
+}
+
+
+
+.submitbox{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.submitbox button{
+    background-color: #ff973c;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
